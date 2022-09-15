@@ -1,0 +1,13 @@
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.exe
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.deps.json
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.runtimeconfig.json
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.runtimeconfig.dev.json
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.dll
+C:\SeleniumProjects\WinForms\bin\Debug\netcoreapp3.1\WinForms.pdb
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.csprojAssemblyReference.cache
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.AssemblyInfoInputs.cache
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.AssemblyInfo.cs
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.csproj.CoreCompileInputs.cache
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.dll
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.pdb
+C:\SeleniumProjects\WinForms\obj\Debug\netcoreapp3.1\WinForms.genruntimeconfig.cache
