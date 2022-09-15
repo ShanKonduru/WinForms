@@ -1,10 +1,10 @@
-﻿using System.Data.SqlTypes;
-using System.Globalization;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlTypes;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +23,26 @@ namespace WinForms {
         public void FormLayout () {
             LoadForm ();
             LoadMenu ();
+            LoadButtons ();
+        }
+
+        private void LoadButtons () {
+            Button button1 = new Button ();
+            Button button2 = new Button ();
+
+            // Set the text of button1 to "OK".
+            button1.Text = "Next >>";
+            // Set the position of the button on the form.
+            button1.Location = new Point (400, 400);
+            // Set the text of button2 to "Cancel".
+            button2.Text = "<< Previous";
+            // Set the position of the button based on the location of button1.
+            button2.Location = new Point (button1.Left, button1.Height + button1.Top + 10);
+
+            // Add button1 to the form.
+            this.Controls.Add (button1);
+            // Add button2 to the form.
+            this.Controls.Add (button2);
         }
 
         private void LoadForm () {
@@ -30,8 +50,8 @@ namespace WinForms {
             this.Text = "Telugu Alphabet Examination";
             this.BackColor = System.Drawing.Color.White;
             this.Size = new System.Drawing.Size (500, 500);
-            this.ControlBox = true;
-            this.FormBorderStyle = FormBorderStyle.FixedDialog ;
+            this.ControlBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.KeyPreview = true;
         }
@@ -41,7 +61,7 @@ namespace WinForms {
             this.menuStrip1.Items.AddRange (new ToolStripItem[] {
                 menu1
             });
-            this.menuStrip1.BackColor = System.Drawing.Color.Black;
+            this.menuStrip1.BackColor = System.Drawing.Color.White;
             this.menuStrip1.Location = new System.Drawing.Point (0, 0);
             this.menuStrip1.Size = new System.Drawing.Size (800, 24);
             this.menuStrip1.Name = "menuStrip1";
